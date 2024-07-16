@@ -14,10 +14,10 @@ navegador.find_element('xpath', '//*[@id="section-10356508"]/section/div[2]/div/
 navegador.find_element('xpath', '//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/div[1]/div/div[2]/div/input').send_keys('alexalexandre1989@hotmail.com')
 
 navegador.find_element('xpath', '//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/div[1]/div/div[3]/div/input').send_keys('31996852164')
-navegador.find_element('xpath', '//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/button').click
+#navegador.find_element('xpath', '//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/button').click
 
-#img = pyautogui.locateCenterOnScreen(r'F:\Curso Python\HTML\midia\Selenium\capturar.png', confidence=0.7)
-#pyautogui.click(img.x, img.y)
+img = pyautogui.locateCenterOnScreen(r'F:\Curso Python\HTML\midia\Selenium\capturar.png', confidence=0.7)
+pyautogui.click(img.x, img.y)
 
 
 input()
