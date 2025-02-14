@@ -14,7 +14,7 @@
   
 # Notas
   
-  • Sertifique-se de que o Chrome webdriver esta instalado e configurado corretamente
+  • Certifique-se de que o Chrome webdriver esta instalado e configurado corretamente
   
 # Autor
 
